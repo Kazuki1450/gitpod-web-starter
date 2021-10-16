@@ -9,6 +9,7 @@ function omikuji() {
     omikujiResult.style.color = "red";
   } else if (0.2 <= r && r < 0.7) {
     omikujiResult.textContent = "吉";
+    omikujiResult.style.color = "black";
   } else {
     omikujiResult.textContent = "凶";
     omikujiResult.style.color = "blue";
